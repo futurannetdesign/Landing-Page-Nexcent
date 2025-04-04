@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-primary: #F5F7FA;
+  --color-body: #FFFFFF;
+  --btn-primary: #4CAF4F;
+  --btn-hover: #4CAF3F;
+  --footer-background:#263238;
+}
+body {
+  background-color: var(--color-primary);
+}
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.container {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
