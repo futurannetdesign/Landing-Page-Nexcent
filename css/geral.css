@@ -19,6 +19,7 @@ li {
   --btn-hover: #80d16c;
   --footer-background:#263238;
   --nav-font-color: #18191F;
+  --color-paragraph: #717171;
 }
 body {
   background-color: var(--color-primary);

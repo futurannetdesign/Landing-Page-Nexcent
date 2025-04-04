@@ -1,5 +1,5 @@
 .header {
-  padding: 4rem 0;
+ width: 100%;
 }
 .header_container {
   display: flex;
@@ -39,4 +39,41 @@
       background-color: var(--btn-hover);
     }
   }
+}
+.header_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_section_titulo {
+  max-width: 650px;
+  margin-left: 6.8rem;
+  h1 {
+    font-size: 4.9rem;
+  }
+  p {
+    color: var(--color-paragraph);
+    font-size: 1.4rem;
+  }
+  strong {
+    color: var(--btn-primary);
+  }
+  button {
+    background-color: var(--btn-primary);
+    color: var(--color-body);
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 2rem;
+    &:hover {
+      background-color: var(--btn-hover);
+    }
+  }
+}
+.header_section_ilostra {
+  max-width: 40rem;
+  margin-top: 4rem;
+  margin-right: 6.8rem;
 }
