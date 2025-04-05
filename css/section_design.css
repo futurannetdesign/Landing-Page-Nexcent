@@ -1,0 +1,43 @@
+.section_design {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  h2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--color-font-h2);
+    margin-bottom: 2rem;
+    max-width: 60rem;
+  }
+  p {
+    font-size: 1.2rem;
+    color: var(--color-paragraph);
+    margin-bottom: 2rem;
+    max-width: 58rem;
+  }
+  button {
+    background-color: var(--btn-primary);
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    &:hover {
+      background-color: var(--btn-hover);
+    }
+  }
+}
+.section_design_img {
+  width: 30rem;
+}
+.flutuando {
+  animation: flutuar 3s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
