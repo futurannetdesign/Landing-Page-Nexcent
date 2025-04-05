@@ -1,5 +1,7 @@
 .header {
  width: 100%;
+ background-color: var(--color-primary);
+ padding-bottom: 2.5rem;
 }
 .header_container {
   display: flex;
