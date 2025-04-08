@@ -1,0 +1,35 @@
+.section_time {
+  background-color: #F5F7FA;
+  display: flex;
+  justify-content: space-around;
+  height: 39rem;
+}
+.section_time_img {
+  width: 34rem;
+  margin-top: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+.section_time_info {
+  margin-top: 4rem;
+  p {
+    max-width: 61rem;
+    padding-bottom: 1rem;
+  }
+  span {
+    color: var(--btn-primary);
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+.section_time_info-quote {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.section_time_info-quote-text {
+  display: flex;
+  align-items: center;
+  color: var(--btn-primary);
+  font-weight: 600;
+}
