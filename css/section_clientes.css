@@ -126,3 +126,129 @@
     }
   }
 }
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  /* Tablet */
+  .section_clientes_info {
+    margin: 2rem;
+    h2 {
+      font-size: 2.8rem;
+      text-align: center;
+    }
+    p {
+      font-size: 1.4rem;
+    }
+  }
+
+  .section_clientes_logo {
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .section_clientes_manage {
+    margin: 2rem;
+    h2 {
+      font-size: 2.8rem;
+    }
+  }
+
+  .section_clientes_icon-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .section_clientes_spending {
+    flex-direction: column;
+    align-items: center;
+    img {
+      margin-top: 4rem;
+    }
+  }
+
+  .section_clientes_spending-info {
+    margin: 4rem 2rem;
+    align-items: center;
+    text-align: center;
+    h3 {
+      font-size: 2.8rem;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Smartphone */
+  .section_clientes_info {
+    h2 {
+      font-size: 2.4rem;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+  }
+
+  .section_clientes_logo {
+    gap: 1rem;
+  }
+
+  .section_clientes_manage {
+    h2 {
+      font-size: 2.4rem;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+  }
+
+  .section_clientes_icon-card {
+    width: 90%;
+    height: auto;
+    padding-bottom: 2rem;
+    
+    h3 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1rem;
+      padding: 0 1rem;
+    }
+  }
+
+  .section_clientes_spending {
+    img {
+      max-width: 250px;
+    }
+  }
+
+  .section_clientes_spending-info {
+    margin: 2rem 1rem;
+    h3 {
+      font-size: 2.4rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+    button {
+      max-width: 16rem;
+      height: 4rem;
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* Desktop */
+  .section_clientes {
+    margin: 0 auto;
+  }
+
+  .section_clientes_icon-cards {
+    gap: 2rem;
+  }
+
+  .section_clientes_spending {
+    gap: 4rem;
+  }
+}

@@ -1,44 +1,138 @@
 .section_business {
   background-color:var(--color-primary);
-  display: flex;
-  gap: 30rem;
-  align-items: center;
-  justify-content: space-around;
   width: 100%;
-  height: 20rem;
+  margin-top: 4rem;
+  padding: 0 2rem;
 }
 .section_business_info {
+  text-align: center;
+  margin-bottom: 3rem;
+  
   h2 {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     font-weight: 500;
     color: var(--color-font-h2);
-    max-width: 42rem;
+    margin-bottom: 1rem;
+    
+    span {
+      color: var(--btn-primary);
+    }
   }
-  span {
-    color: var(--btn-primary);
-  }
+  
   p {
-    font-size: 1.2rem;
-    color: var(--nav-font-color);
-    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    color: var(--color-paragraph);
   }
 }
 .section_business_icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  img {
-    width: 2.4rem;
-    margin-left: 2rem;
-  }
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .section_business_icon-card {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.5rem;
   align-items: center;
-  gap: 1rem;
+  
+  img {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
 }
 .section_business_icon-card-info {
   display: flex;
   flex-direction: column;
+  gap: 0.5rem;
+  
+  strong {
+    font-size: 2.2rem;
+    color: var(--btn-primary);
+  }
+  
+  span {
+    font-size: 1.2rem;
+    color: var(--color-paragraph);
+  }
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  /* Tablet */
+  .section_business {
+    margin: 2rem;
+  }
+
+  .section_business_info {
+    h2 {
+      font-size: 2.8rem;
+    }
+    p {
+      font-size: 1.4rem;
+    }
+  }
+
+  .section_business_icon {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .section_business_icon-card {
+    gap: 2rem;
+  }
+
+  .section_business_icon-card-info {
+    strong {
+      font-size: 2.4rem;
+    }
+    span {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Smartphone */
+  .section_business_info {
+    h2 {
+      font-size: 2.4rem;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+  }
+
+  .section_business_icon-card {
+    gap: 1.5rem;
+    
+    img {
+      width: 3.6rem;
+      height: 3.6rem;
+    }
+  }
+
+  .section_business_icon-card-info {
+    gap: 1rem;
+    
+    strong {
+      font-size: 2rem;
+    }
+    span {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* Desktop */
+  .section_business {
+    margin: 4rem auto;
+  }
+
+  .section_business_icon {
+    gap: 4rem;
+  }
 }

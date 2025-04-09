@@ -26,3 +26,47 @@
     
   }
 }
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  /* Tablet */
+  .section_demon {
+    h2 {
+      font-size: 4rem;
+      max-width: 60rem;
+      padding: 0 2rem;
+    }
+    
+    button {
+      padding: 1.2rem 2.5rem;
+      font-size: 1.8rem;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Smartphone */
+  .section_demon {
+    h2 {
+      font-size: 3rem;
+      max-width: 100%;
+      padding: 0 1rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    button {
+      padding: 1rem 2rem;
+      font-size: 1.6rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* Desktop */
+  .section_demon {
+    h2 {
+      font-size: 6rem;
+      max-width: 80rem;
+    }
+  }
+}
