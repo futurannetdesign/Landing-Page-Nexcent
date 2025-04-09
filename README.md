@@ -110,4 +110,4 @@ Your Name - [@futurannetDesign]
 Project Link: [https://github.com/futurannetdesign](https://futurannetdesign.github.io/Landing-Page-Nexcent/)
 
 ---
-⭐️ From [YourName](https://github.com/futurannetdesign)
+⭐️ From [Franks Sena](https://github.com/futurannetdesign)
