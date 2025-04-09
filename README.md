@@ -41,7 +41,7 @@ Uma landing page moderna e responsiva, criada com HTML e CSS, com design limpo e
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Landing-Page-Nexcent.git
+git clone https://github.com/futurannetdesign/Landing-Page-Nexcent.git
 ```
 
 2. Navigate to project directory:
@@ -105,9 +105,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📧 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
+Your Name - [@futurannetDesign]
 
-Project Link: [https://github.com/yourusername/Landing-Page-Nexcent](https://github.com/yourusername/Landing-Page-Nexcent)
+Project Link: [https://github.com/futurannetdesign](https://futurannetdesign.github.io/Landing-Page-Nexcent/)
 
 ---
-⭐️ From [YourName](https://github.com/yourusername)
+⭐️ From [YourName](https://github.com/futurannetdesign)
